@@ -31,6 +31,7 @@ const App = () => {
     }
 
     function deleteUser(userId){
+        console.log("salom")
         setUsers(users.filter(user=>user.id !== userId))
     }
 
