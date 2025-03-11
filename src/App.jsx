@@ -36,6 +36,7 @@ const App = () => {
     }
 
     const updateUser = (userId) => {
+        console.log(userId);
         let updatedUser =  users.map(user=>{
             if(user.id === userId){
                 user.isMarried = !user.isMarried
